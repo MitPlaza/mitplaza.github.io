@@ -87,9 +87,10 @@ span{
     margin: auto 0;
     padding: 30px;
 }
-.hero .fotos{
+.hero .foto{
     margin: auto 0;
     padding: 30px;
+    text-align: center;
 }
 
 .hero p{
