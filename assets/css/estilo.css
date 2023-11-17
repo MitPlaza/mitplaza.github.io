@@ -115,8 +115,15 @@ span{
     height: 40px;
     margin: 10px;
     font-size: 20px;
-    background-color: #182450;
-    color: #e7633B;
+
+    background-color: #e7633B;
+    color: #182450;
+    transform: rotate(360deg);
+    transition: .3s all;
+    outline-offset: 5px;
+    outline:2px dotted #e7633b;
+
+    
     text-align: center;
     justify-content: start;
     align-items: center;
@@ -124,18 +131,17 @@ span{
     padding: 10px;
     transform: rotate(0deg);
     transition: .3s all;
-    outline-offset: 0px;
-    outline:0px dotted #e7633b;
+  
 }
 .redes i:hover{
 
-    background-color: #e7633B;
-    color: #182450;
-
+    background-color: #182450;
+    color: #e7633B;
     transform: rotate(360deg);
     transition: .3s all;
     outline-offset: 5px;
-    outline:2px dotted #e7633b;
+    outline-offset: 0px;
+    outline:0px dotted #e7633b;
 }
 
 
@@ -507,8 +513,10 @@ text-align: center;
     height: 40px;
     margin: 10px;
     font-size: 20px;
-    background-color: #182450;
+    background-color:   #182450;
     color: #e7633B;
+
+    
     text-align: center;
     justify-content: start;
     align-items: center;
@@ -516,16 +524,19 @@ text-align: center;
     padding: 10px;
     transform: rotate(0deg);
     transition: .3s all;
-    outline-offset: 0px;
-    outline:0px dotted #e7633b;
+    outline-offset: 5px;
+    outline:2px dotted #182450;
+   
 }
 .contacto .redes i:hover{
 
-    background-color:   #182450;
+    background-color: #182450;
     color: #e7633B;
 
     transform: rotate(360deg);
     transition: .3s all;
-    outline-offset: 5px;
-    outline:2px dotted #182450;
+    outline-offset: 0px;
+    outline:0px dotted #e7633b;
+
+    
 }
